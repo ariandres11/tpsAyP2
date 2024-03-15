@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="tp1_1/src/main/java"/>
+	<classpathentry kind="src" path="tp1_10/src/main/java"/>
+	<classpathentry kind="src" path="tp1_11/src/main/java"/>
+	<classpathentry kind="src" path="tp1_2/src/main/java"/>
+	<classpathentry kind="src" path="tp1_3/src/main/java"/>
+	<classpathentry kind="src" path="tp1_4/src/main/java"/>
+	<classpathentry kind="src" path="tp1_5/src/main/java"/>
+	<classpathentry kind="src" path="tp1_6/src/main/java"/>
+	<classpathentry kind="src" path="tp1_7/src/main/java"/>
+	<classpathentry kind="src" path="tp1_8/src/main/java"/>
+	<classpathentry kind="src" path="tp1_9/src/main/java"/>
+	<classpathentry kind="output" path="tp1_1/target/classes"/>
+</classpath>

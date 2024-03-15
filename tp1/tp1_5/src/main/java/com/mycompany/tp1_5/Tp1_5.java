@@ -1,14 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package com.mycompany.tp1_5;
 import java.util.Scanner;
 
-/**
- *
- * @author ariel
- */
 public class Tp1_5 {
 
     public static void main(String[] args) {
@@ -22,6 +15,5 @@ public class Tp1_5 {
         }else{
             System.out.println("El número "+n1+" NO es múltiplo de "+n2);
         }
-        
     }
 }

@@ -1,16 +1,9 @@
-
-
 package com.mycompany.tp1_2;
 import java.util.Scanner;
-/**
- *
- * @author ariel
- */
 
 public class Tp1_2 {
 
     public static void main(String[] args) {
-        
         double diametro;
         double circunferencia;
         double area;
@@ -49,10 +42,6 @@ public class Tp1_2 {
                 System.out.println("Área: "+ area);
             }
             default -> System.out.println("Por favor introduzca un número de operación válido");
-            
         }
-        
-        
-        
     }
 }

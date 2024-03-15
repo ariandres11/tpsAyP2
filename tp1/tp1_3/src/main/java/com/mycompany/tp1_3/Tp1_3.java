@@ -2,7 +2,6 @@
 package com.mycompany.tp1_3;
 import java.util.Scanner;
 
-
 public class Tp1_3 {
 
     public static void main(String[] args) {
@@ -22,7 +21,5 @@ public class Tp1_3 {
                 System.out.println("Son números iguales");
             }
         }
-        
-        
     }
 }
