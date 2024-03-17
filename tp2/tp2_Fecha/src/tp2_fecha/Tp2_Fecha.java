@@ -12,7 +12,7 @@ public class Tp2_Fecha {
         Scanner teclado = new Scanner(System.in);
 
         //teclado.nextLine();
-        System.out.println("Ingresa la fecha con el formato d/m/aaaa");
+        System.out.println("Ingresa la fecha con el formato dd/mm/aaaa");
         String[] numeros = teclado.nextLine().split("/");
         fecha1.setDia(Integer.parseInt(numeros[0]));
         fecha1.setMes(Integer.parseInt(numeros[1]));
@@ -99,7 +99,6 @@ public class Tp2_Fecha {
                             return new Fecha(año, mes, dia);
                         }
                     }
-
                 }
             }
         } else {
@@ -139,10 +138,8 @@ public class Tp2_Fecha {
                         } else {
                             mes--;
                             dia = 30;
-
                         }
                     }
-
                     return new Fecha(año, mes, dia);
                 }
             }
@@ -172,24 +169,89 @@ public class Tp2_Fecha {
         return new Fecha(año, mes, dia);
     }
 
-    public static Fecha verificarMayor(Fecha fecha1, Fecha fecha2, boolean esBisiesto) {
+    public static Fecha devuelveMayor(Fecha fecha1, Fecha fecha2, boolean esBisiesto) {
         int añof1 = fecha1.getAño();
         int añof2 = fecha2.getAño();
-        
-        if(añof1 < añof2){
+
+        int mesf1 = fecha1.getMes();
+        int mesf2 = fecha2.getMes();
+
+        int diaf1 = fecha1.getDia();
+        int diaf2 = fecha2.getDia();
+
+        if (añof1 < añof2) {
             return fecha2;
+        } else if (añof1 > añof2) {
+            return fecha1;
+        } else {
+            if (mesf1 < mesf2) {
+                return fecha2;
+            } else if (mesf1 > mesf2) {
+                return fecha1;
+            } else {
+                if (diaf1 < diaf2) {
+                    return fecha2;
+                } else if (diaf1 > diaf2) {
+                    return fecha1;
+                } else {
+                    //Devuelvo cualquiera porque son la misma fecha 
+                    return fecha1;
+                }
+            }
         }
+    }
+
+    public static boolean verIgualdad(Fecha fecha1, Fecha fecha2) {
+        int añof1 = fecha1.getAño();
+        int añof2 = fecha2.getAño();
+
+        int mesf1 = fecha1.getMes();
+        int mesf2 = fecha2.getMes();
+
+        int diaf1 = fecha1.getDia();
+        int diaf2 = fecha2.getDia();
+
+        if (añof1 == añof2 && mesf1 == mesf2 && diaf1 == diaf2) {
+            return true;
+        }
+        return false;
+    }
+
+    public static int calcularDiferencia(Fecha fecha1, Fecha fecha2) {
+
+        int añof1 = fecha1.getAño();
+        int añof2 = fecha2.getAño();
+
+        int mesf1 = fecha1.getMes();
+        int mesf2 = fecha2.getMes();
+
+        int diaf1 = fecha1.getDia();
+        int diaf2 = fecha2.getDia();
         
+        int diaMay, diaMen, dif;
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        return new Fecha(0,0,0);
+        if (añof1 == añof2 && mesf1 == mesf2 && diaf1 == diaf2) {
+            //Es el mismo dia
+            return 0;
+        }else{
+            if (añof1 == añof2 && mesf1 == mesf2 && diaf1 !=diaf2) {
+                if (diaf1 < diaf2) {
+                    //Dia de la fecha 2 es mayor
+                    diaMay = diaf2;
+                    diaMen = diaf1;
+                }else{
+                    diaMay = diaf1;
+                    diaMen = diaf2;
+                }
+                dif = diaMay - diaMen;
+                return dif;
+            }else{
+                if (añof1 == añof2 && mesf1 != mesf2) {
+                    
+                }
+            }
+        }
+
+        return 0;
     }
 }

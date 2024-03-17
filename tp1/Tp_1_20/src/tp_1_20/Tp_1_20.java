@@ -1,4 +1,5 @@
 package tp_1_20;
+
 import java.util.Scanner;
 
 //Trabajo Práctico n°1 ejercicio 20
@@ -7,16 +8,16 @@ public class Tp_1_20 {
     public static void main(String[] args) {
         int rango, numIngresado, intentos, quiereSeguir;
         boolean ganado, seguir;
+        Scanner input = new Scanner(System.in);
         
         //1 a 1000 incluyendo el 0
         rango = 1001;
-        Scanner input = new Scanner(System.in);
-        
+
         do {
             int ranNum = (int) (Math.random() * rango);
             intentos = 0;
             ganado = false;
-            //[DEBUG]
+            //DEBUG
             //System.out.println(ranNum);
             while (!ganado) {
                 intentos++; //Para llevar cuenta de los intentos
