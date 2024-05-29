@@ -43,7 +43,7 @@ public class CuentaCorriente extends CuentaBancaria {
 
         cajaAhorro.setSaldo(saldo);
         //Mostrar saldo final
-        System.out.println("Saldo final: " + saldo);
+        //System.out.println("Saldo final: " + saldo);
     }
 
 }

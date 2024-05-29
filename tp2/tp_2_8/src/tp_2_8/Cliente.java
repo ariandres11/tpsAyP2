@@ -46,6 +46,13 @@ public class Cliente {
         this.email = email;
     }
     
+    @Override
+    public String toString(){
+        
+        
+        return "\n Cliente" + "\nNombre: " + nombre + "\nCuit: " + cuit + "\nDireccion: " + direccion + "\nCorreo Electronico: " + email;
+    }
+    
     
     
 }

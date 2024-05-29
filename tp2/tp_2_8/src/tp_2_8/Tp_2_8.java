@@ -2,39 +2,47 @@ package tp_2_8;
 
 import java.util.Scanner;
 
-/* crear la clase cuentaBancaria que debe registrar num de cuenta, titular y saldo
-crear la clase caja de ahorro que extiende de cuenta bancaria  en la misma se pueden hacer depositos
-y extracciones siempre que el saldo sea mayor o igual a 0
-
-crear la clase cuenta corriente que extiende y puede hacer extraciones y depositos, en este caso puedee tener saldo negativo hasta determinado monto fijado por cada cliente
-
-de cada cliente se registra su nombre, cuit, direccion y email
-
-crear un programa que cree instancias de cada objeto para cada clase y realizar depositos y extracciones*/
 public class Tp_2_8 {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
-        //imprimirCajaAhorro
-        System.out.println("Ingrese la operacion que desea hacer: ");
+        Cliente cliente = new Cliente("Ariel", 2345168, "Chubut 1000", "ariel@gmail.com");
+        CajaAhorro cajaAhorro = new CajaAhorro(126789, "Ariel", 30000);
+        CuentaCorriente cuentaCorriente = new CuentaCorriente(0, 129067, "Ariel", 40000);
+        
+        
+        System.out.println(cliente);
+        System.out.println("A que cuenta desea acceder?: ");
         System.out.println(" ");
-        System.out.println("    CAJA DE AHORRO:");
-        System.out.println("    1. Extraccion ");
-        System.out.println("    2. Deposito");
+        System.out.println("    0. CAJA DE AHORRO:");
         System.out.println(" ");
-        System.out.println("    CUENTA CORRIENTE:");
-        System.out.println("    1. Extraccion ");
-        System.out.println("    2. Deposito");
+        System.out.println("    1. CUENTA CORRIENTE:");
+        System.out.println(" ");
+        int numOp = input.nextInt();
+        switch (numOp) {
+            case 0:
+                System.out.println(cajaAhorro.toString());
+                
+                
+                break;
+            case 1:
+                System.out.println(cuentaCorriente.toString());
+                break;
+            default:
+                break;
+        }
         
 
     }
-    
-    public void imprimirCajaAhorro(CajaAhorro cajaAhorro){
-        double saldo = cajaAhorro.getSaldo();
-        
-        
+
+
+    public void imprimirCliente(Cliente cliente) {
+        String nombre = cliente.getNombre();
+        String direccion = cliente.getDireccion();
+        String email = cliente.getEmail();
+        int cuit = cliente.getCuit();
+
         
     }
 

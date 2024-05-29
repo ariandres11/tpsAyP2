@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="de7b0c20-1362-4ea8-a994-f2681dfb8711" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../tp1/Tp_1_20/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp1/Tp_1_20/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_13/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp1/tp_1_13/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_15/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp1/tp_1_15/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/build/classes/tp_1_18/Tp_1_18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/build/classes/tp_1_18/Tp_1_18.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp1/tp_1_18/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp1/tp_1_18/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/src/tp_1_18/Tp_1_18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp1/tp_1_18/src/tp_1_18/Tp_1_18.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_7/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_7/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_7/src/tp2_7/Tp2_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_7/src/tp2_7/Tp2_7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_Racional/build/classes/tp2_racional/Tp2_Racional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_Racional/build/classes/tp2_racional/Tp2_Racional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_Racional/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_Racional/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_Racional/src/tp2_racional/Racional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_Racional/src/tp2_racional/Racional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp2_Racional/src/tp2_racional/Tp2_Racional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp2_Racional/src/tp2_racional/Tp2_Racional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CajaAhorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CajaAhorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CuentaBancaria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/Tp_2_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../tp2/tp_2_8/src/tp_2_8/Tp_2_8.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2h8zFq24r8SRWEfTC7jCqg4pBrQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="tp8_2_entregable" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="tp8_2_entregable" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de7b0c20-1362-4ea8-a994-f2681dfb8711" name="Changes" comment="" />
+      <created>1716990394299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716990394299</updated>
+      <workItem from="1716990395308" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

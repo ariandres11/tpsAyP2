@@ -63,7 +63,7 @@ public class Tp2_Racional {
                 racionalRes = MultiplicarRacionales(racional1, racional2);
                 System.out.println("Resultado de la Multiplicacion : " + racionalRes);
                 System.out.println("\n Programa finalizado");
-                break;
+                break; 
             case 4:
                 racionalRes = DividirRacionales(racional1, racional2);
                 System.out.println("Resultado de la division: " + racionalRes);
@@ -76,6 +76,7 @@ public class Tp2_Racional {
         }
     }
 
+    
     public static Racional SumarRacionales(Racional racional1, Racional racional2) {
         //Proceso para hallar mcd
         //Nums

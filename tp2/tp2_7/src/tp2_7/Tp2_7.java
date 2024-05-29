@@ -47,7 +47,7 @@ public class Tp2_7 {
         System.out.println("Valor de la hora: " + valorHora);
         System.out.println("Horas trabajadas: " + horasTrabajadas);
 
-        /*double valorHora, double horasTrabajadas, int dni, String nombre*/
+        
     }
 
     public static void imprimirEmpleadoAsalariado(EmpleadoAsalariado empleado) {

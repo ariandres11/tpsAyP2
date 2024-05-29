@@ -13,8 +13,6 @@ public class CuentaBancaria {
         this.saldo = saldo;
     }
     
-    
-    
     public int getNumCuenta() {
         return numCuenta;
     }
@@ -37,6 +35,11 @@ public class CuentaBancaria {
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+    @Override
+    public String toString(){
+        
+        return "\nDueño cuenta: " + nombreTitular + "\nNumero de cuenta: " + numCuenta + "\nSaldo: $ " + saldo;
     }
     
     

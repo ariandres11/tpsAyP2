@@ -19,13 +19,13 @@ public class CajaAhorro extends CuentaBancaria {
         System.out.println("Saldo final: " + saldo);
     }
 
-    public void deposito(CajaAhorro cajaAhorro, double montoDepositar) {
-        double saldo = cajaAhorro.getSaldo();
+    public void deposito(double montoDepositar) {
+        double saldo = getSaldo();
         saldo += montoDepositar;
         
-        cajaAhorro.setSaldo(saldo);
+        setSaldo(saldo);
         //Mostrar saldo final
-        System.out.println("Saldo final: " + saldo);
+        //System.out.println("Saldo final: " + saldo);
     }
 
 }

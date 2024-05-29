@@ -32,6 +32,6 @@ public class Racional {
 
     @Override
     public String toString() {
-        return this.numerador+ " / " + this.denominador;
+        return this.numerador + " / " + this.denominador;
     }
 }
